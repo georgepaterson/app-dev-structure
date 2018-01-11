@@ -80,3 +80,19 @@ A typical pipeline will include:
 * Stop previous release.
 
 Blue-green deployment is used to maintain uptime. New releases are deployed to the blue environment. Green is the current live environment. If the new release passes production tests, the router is updated to make the new release the green environment. The previous release becomes the blue environment ready for the next release. If there is a problem with the current green environment, it can be switched to the previous release blue environment.
+
+## Penetration Testing
+
+* Playbooks for against tests should be created; these will simply outline what to do to secure the application and it's infrastructure against a test.
+* A Red Team will trigger a test and attempt to exploit the test. The Blue Team will respond.
+
+### Denial of Service (DoS) Attack Playbook
+
+
+
+ 
+
+ 
+
+
+
